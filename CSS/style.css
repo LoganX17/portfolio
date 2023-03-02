@@ -1,0 +1,67 @@
+p {
+  color: rgb(138, 43, 226);
+}
+
+img {
+  color: rgb(138, 43, 226);
+  background-color: rgb(138, 43, 226);
+}
+
+body {
+  margin: 0px;
+  background-color: darkred;
+  background-image: url("../Images/annie-spratt-osuiatBDTww-unsplash.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: rgb(228, 39, 39);
+}
+
+.col-sm {
+  color: rgb(228, 39, 39) !important;
+  gap:2rem;
+  margin-left: 0.5rem;
+}
+
+#nav {
+  background-color: none;
+}
+
+h3 {
+  color: darkred;
+  background-color: white;
+}
+
+.btn-outline-dark {
+  color: darkred;
+  background-color: white;
+  margin-left: 15px;
+  gap: 2rem;
+}
+
+.btn-outline-dark:hover {
+  background-color: darkred;
+  color: white;
+  margin-left: 15px;
+  gap: 2rem;
+}
+
+.fade-in {
+  width: min(100% - 2rem, 1200px);
+  margin-left: 6rem;
+}
+
+.fade-in {
+  animation: fade-in 4s forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+row {
+  gap: 4rem;
+}
