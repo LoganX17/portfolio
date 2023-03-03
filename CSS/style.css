@@ -1,12 +1,23 @@
 p {
   color: rgb(138, 43, 226);
+  margin-left: 2rem;
+  margin-right: 3rem;
 }
 
 img {
   color: rgb(138, 43, 226);
   background-color: rgb(138, 43, 226);
 }
-
+.adress {
+  color: purple;
+  margin-left:75%;
+  text-align: center;
+}
+h4{
+  font-style:italic;
+  text-decoration: underline;
+  margin-left: 1rem;
+}
 body {
   margin: 0px;
   background-color: darkred;
@@ -15,7 +26,18 @@ body {
   background-blend-mode: multiply;
   color: rgb(228, 39, 39);
 }
-
+.work {
+  color: white;
+}
+.work p {
+  color: green;
+}
+.school {
+  color: white;
+}
+.school p {
+  color: green;
+}
 .col-sm {
   color: rgb(228, 39, 39) !important;
   gap:2rem;
