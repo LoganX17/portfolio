@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../CSS"
+		},
+		{
+			"path": "../Images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "My Website Codio"
+	}
+}

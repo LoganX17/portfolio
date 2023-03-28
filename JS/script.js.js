@@ -1,20 +1,15 @@
-const images = document.querySelectorAll("card body");
-let index = 0;
-const prev = document.querySelector("#prev");
-const next = document.querySelector("#next");
-const active = "active" 
-function showImg(i){
-    images.forEach(image => image.classList.remove(active))
-    images[i].classList.add(active)
-}
-next.addEventListener("click", function(){
-  index = (index + 1) % images.length
-   showImg(index);
-   pause();
-   })
-prev.addEventListener("click", function(){
-   index = (index + images.length - 1) % images.length
-    showImg(index);
-    pause();
-    })
-    showImg(index);
+/* CODIO SOLUTION BEGIN*/
+const body = document.querySelector('body');
+const modeToggle = document.getElementById('mode-toggle');
+const modeStatus = document.querySelector('.mode-status');
+function toggleMode() {
+body.classList.toggle('dark-mode');
+
+const modeMessage = body.classList.contains('dark-mode') ?
+    'Dark Mode'
+    : "Light Mode"
+
+modeStatus.innerText = "Currently in " + modeMessage;
+  }
+
+modeToggle.addEventListener('click', toggleMode);
