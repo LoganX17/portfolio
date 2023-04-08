@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+
+.item > p {
+  text-align: center;
+}
+
+
+.left {
+  transform-origin: left center;
+  transform: translateX(-50%);
+}
+
+
+.right {
+  transform-origin: right center;
+  transform: translateX(50%);
+}
+
+
+.slide-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+/*css for all pages*/
+  
+  p {
+    color: rgb(138, 43, 226);
+    margin-left: 2rem;
+    margin-right: 3rem;
+  }
+  
+  img {
+    color: rgb(138, 43, 226);
+    background-color: rgb(138, 43, 226);
+  }
+  .adress {
+    color: purple;
+    margin-left:75%;
+    text-align: center;
+  }
+  h4{
+    font-style:italic;
+    text-decoration: underline;
+    margin-left: 1rem;
+  }
+  body {
+    margin: 0px;
+    background-color: darkred;
+    background-image: url("../Images/annie-spratt-osuiatBDTww-unsplash.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: rgb(228, 39, 39);
+  }
+  .work {
+    color: white;
+  }
+  .work p {
+    color: green;
+  }
+  .school {
+    color: white;
+  }
+  .school p {
+    color: green;
+  }
+  .hobby p {
+  font-weight:600;
+  color:aqua;
+  }
+  .col-sm {
+    color: rgb(228, 39, 39) !important;
+    gap:2rem;
+    margin-left: 0.5rem;
+  }
+  
+  #nav {
+    background-color: none;
+  }
+  
+  h3 {
+    color: darkred;
+    background-color: white;
+  }
+  
+  .btn-outline-dark {
+    color: darkred;
+    background-color: white;
+    margin-left: 15px;
+    gap: 2rem;
+    
+  }
+  
+  .btn-outline-dark:hover {
+    background-color: darkred;
+    color: white;
+    margin-left: 15px;
+    gap: 2rem;
+  }
+  
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  
+  button#prev {
+    left: 10px;
+  }
+  
+  button#next {
+    right: 10px;
+  }
+       /* dark mode coding */
+  
+  .dark-mode {
+    background-color: #8f8d96;
+    color: #df0a0a;
+    transition: all 0.4s ease-in;
+    background-image: none;
+    
+    
+  }
+  
+  .dark-mode p {
+  color:rgb(228, 39, 39);
+  
+  }
+  
+  .dark-mode h3 {
+  color:black;
+  
+  }
+  
+  .dark-mode h4 {
+    color:black;
+    
+    }
+  
+    .dark-mode td {
+      color: red;
+      
+    }
+  
+    .dark-mode .adress {
+      color:red;
+      
+      }
+  
+  .toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 3.75rem;
+    height: 2.13rem;
+    margin-bottom: 0.63rem;
+    margin-inline: auto;
+  }
+  
+  
+  .toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
