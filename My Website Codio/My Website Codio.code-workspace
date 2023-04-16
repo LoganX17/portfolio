@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "../Images"
+		},
+		{
+			"path": "../JS"
 		}
 	],
 	"settings": {
