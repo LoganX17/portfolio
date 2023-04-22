@@ -14,6 +14,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "My Website Codio"
+		"liveServer.settings.multiRootWorkspaceName": "My Website Codio",
+		"liveServer.settings.port": 5501
 	}
 }
