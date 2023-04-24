@@ -1,3 +1,8 @@
+$("#save").on("click",function() {
+  alert("Form Submitted!");
+});
+
+
 /* CODIO SOLUTION BEGIN*/
 const body = document.querySelector('body');
 const modeToggle = document.getElementById('mode-toggle');
@@ -69,3 +74,6 @@ function pause(){
 // in this case it will call my timeLoop function every 100 miliseconds
 // this is often enough that a user won't notice the delay, but infrequent enough to not cause the application to get stuck just doing this
 setInterval(timeLoop, 100);
+
+
+
