@@ -12,7 +12,7 @@
 
 
 .container {
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
@@ -214,4 +214,20 @@ p {
   input:checked + .slider:before {
     transform: translateX(1.63rem);
   } 
+
+  #chart {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  
+  .bar {
+    width: 50px;
+    margin: 0 5px;
+  }
   
